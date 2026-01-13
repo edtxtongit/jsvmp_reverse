@@ -8,7 +8,7 @@ def rotate_left(value, shift):
 long_str = "MhrcLF0LMJHA3tUg2J0o0abXaVmynhDIiEW5mclebU2wjN9hHGhKSC9xsluvHA2uCX5RwrXZKNXvi9W1CXNPFoZpMDLRbNhpZPLT8aybBG" # x-ab-token来的
 input_bytes = [ord(c) for c in long_str]
 key = [110, 67, 90, 87, 66, 86, 53] # "nCZWBV5"
-seed = 105
+seed = 105   # 需要随机生成，非固定
 state = seed
 carry = seed
 output = [seed]
