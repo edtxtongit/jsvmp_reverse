@@ -58,3 +58,14 @@ def generate_token(input_str: str) -> str:
 input_str = "1766835263864|wF7jLiS5X6023CH2knM1f4Gfs8o7yEunwb4Vi9N1B05HY87p99|1q6olre"
 token = generate_token(input_str)
 print("Generated token:", token)
+
+
+#需要额外插入添加的字符(左边索引)
+#12	3	✅
+#25	V	✅
+#38	l	✅
+#51	K	✅
+#64	C	✅
+#77	9	✅
+#90	L	✅
+#103 b	✅
